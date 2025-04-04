@@ -1,0 +1,40 @@
+.menu-acessibilidade{
+    display:flex;
+    gap: 5px;
+    flex-direction: column;
+    position:fixed;
+    right: 20px;
+    z-index: 1000;
+}
+
+.rotacao_acessibilidade{
+    margin-top: 5rem;
+    display: flex;
+    transform: rotate(-90deg);
+    transform-origin: right center;
+}
+
+.opcoes{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.apresenta-lista_acessibilidade{
+    display: none;
+}
+
+.botao_header{
+    background-color: black;
+}
+
+.lead{
+    color: rgba(122, 119, 119, 0.831);
+    font-weight: 700;
+}
+
+.habilidades{
+    font-weight: 600;
+}
+
